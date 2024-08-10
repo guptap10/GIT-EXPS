@@ -78,5 +78,8 @@ int main(){
 4.) <img width="1052" alt="Screenshot 2024-08-11 at 1 00 25 AM" src="https://github.com/user-attachments/assets/c3539670-4184-4d84-a01b-4d5495a1b096">
 
 
+# Conclusion
+We learnt to use different operator in c++.
+
 
 
