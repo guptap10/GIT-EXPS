@@ -177,22 +177,22 @@ int main()
     cout<<"Your grade is A"<<endl;
     cout<< "You are passed"<<endl;
   }
-  else if(90>s>=80)
+  else if(s>=80)
   {
     cout<<"Your grade is B"<<endl;
     cout<< "You are passed"<<endl;
   }
-  else if(80>s>=70)
+  else if(s>=70)
   {
     cout<<"Your grade is C"<<endl;
     cout<< "You are passed"<<endl;
   }
-  else if(70>s>=60)
+  else if(s>=60)
   {
     cout<<"Your grade is D"<<endl;
     cout<< "You are passed"<<endl;
   }
-  else if(60>s>=50)
+  else if( s>=50)
   {
     cout<<"Your grade is E"<<endl;
     cout<< "You are passed"<<endl;
@@ -219,6 +219,8 @@ int main()
 ![image](https://github.com/user-attachments/assets/9af61182-0188-4245-b441-ba7cd36167df)
 
 5.) Grades 
+<img width="1215" alt="image" src="https://github.com/user-attachments/assets/2f1c85ae-aaab-4532-a5ea-7d0740bd6f7c">
+
 
 
 # Conclusion
