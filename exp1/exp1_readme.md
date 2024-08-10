@@ -7,11 +7,11 @@ To learn about VS code and getting input from user and displaying it.
 VS Code
 
 # Problem Statement
- 1.) Simple 'Hello world' program.
+ 1.) Write a program to print simple 'Hello world' message.
 
- 2.) Getting input from user and displaying it.
+ 2.) Write a program to get the  input from user and displaying it.
  
- 3.) Basic calculator.
+ 3.) Write a program to create a basic calculator.
 
  # Theory
 To print a message or output we use _'cout'_ .
@@ -72,13 +72,13 @@ int main()
 
 ## Output
 
-Print hello world
+1.) Print hello world
 ![image](https://github.com/user-attachments/assets/85b9a311-8dc4-4a9b-8559-b86f7fcc94ad)
 
-Input from user
+2.) Input from user
 ![image](https://github.com/user-attachments/assets/b66663b9-09a2-4a71-92a3-6a6c0b57d6cb)
 
-Calculator
+3.) Calculator
 ![image](https://github.com/user-attachments/assets/afae3899-c280-4fe1-ab37-ef7f3612701c)
 
 
