@@ -52,11 +52,112 @@ for (i=0 ; i<r ; i++)
 }
 
 //MATRIX ADDITION & MULTIPLICATION
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d , i , j ,k , e, f;
+    cout<< " Enter matrix-1 rows: ";
+    cin>> a ;
+    cout<<" Enter matrix-1 columns: ";
+    cin>> b;
+    cout<< " Enter matrix-2 rows: ";
+    cin>> c ;
+    cout<<" Enter matrix-2 columns: ";
+    cin>> d;
 
+    int mat1[a][b];
+    int mat2[c][d];
+    int add [a][b];
+    int mul [a][d];
+    
+ 
+//Taking elements of the matrix   
+for (i=0 ; i < a ; i++)
+    {
+        for(j = 0 ; j < b ; j++)
+        {
+            cout<< "Enter elements ("<<i<< "," <<j<<"): "  ;
+            cin>>mat1[i][j];
+        }
+    }
+
+
+    for (i=0 ; i < c ; i++)
+    {
+        for(j = 0 ; j < d ; j++)
+        {
+            cout<< "Enter elements ("<<i<< "," <<j<<"): "  ;
+            cin>>mat2[i][j];
+        }
+    }
+//Checking condition for addition of matrices using if-else loop.
+    if ( a !=c || b!=d)
+    {
+        cout<< "Matrix cannot be added as dimension do not match."<<endl;
+    }
+    
+else
+{for (i=0 ; i < a ; i++)
+    {
+        for(j = 0 ; j < b ; j++)
+        {
+            add[i][j] = mat1[i][j] + mat2 [i][j];
+
+        }
+    }
+//Printing the sum of matrices.
+cout<<"ADDITION OF MATRIX: "<<endl;
+for (i=0 ; i< a ; i++)
+{
+    for(j = 0; j< b ; j++ )
+    { 
+        cout<< " " <<add[i][j];
+    }
+    cout<<endl;
+}}
+//Checking condition for multiplication of matrices.
+    if( b != c)
+{
+    cout<< "Matrices cannot be multiplied as dimensions do not match." <<endl;
+    return 1;
+}
+for(i = 0; i<a ; i++)
+{
+    for( j = 0; j<d ; j++)
+    {
+        mul[i][j] = 0;
+        for( k=0; k<b ; k++)
+        {
+            mul[i][j] += mat1[i][k] * mat2[k][j];
+        }
+    }
+}
+//Printing the product of matrices.
+cout << "MULTIPLICATION OF MATRIX: "<<endl;
+for (i=0 ; i< a ; i++)
+{
+    for(j = 0; j<d ; j++ )
+    { 
+        cout<< " " <<mul[i][j];
+    }
+    cout<<endl;
+}
+}
 
 ```
 # Output
 1.) MATRIX FROM USER
+<img width="1077" alt="image" src="https://github.com/user-attachments/assets/c099154a-f674-4e55-8808-4731defb532d">
+
 
 2.) MATRIX ADDITION AND MULTIPLICATION
+<img width="1042" alt="image" src="https://github.com/user-attachments/assets/7891c636-392b-4046-8068-4b3af997b4cf">
+<img width="1042" alt="image" src="https://github.com/user-attachments/assets/cb9a118e-a2dc-4b3e-97ce-b859536b71b5">
+<img width="1171" alt="image" src="https://github.com/user-attachments/assets/f41564fe-65b0-465e-a5e5-897ff235524f">
+<img width="1077" alt="image" src="https://github.com/user-attachments/assets/ff84678a-8a11-4a45-a08a-ead09e993974">
+
+
+
+
 
