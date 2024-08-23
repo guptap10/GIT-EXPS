@@ -153,7 +153,7 @@ using namespace std;
 int main()
 
 { int i,j, r1, c1, sum=0, sum2=0;
- cout<<"Enter number of rows and cloumns of first matrix: ";
+ cout<<"Enter number of rows and cloumns of matrix: ";
 cin>>r1>>c1;
 int mat1[r1][c1];
 //Checking if square matrix or not
