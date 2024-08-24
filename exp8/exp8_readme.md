@@ -9,6 +9,10 @@ VS Code
 
 2.) To make a matrix by taking number of rows and column from user and do their addition and multiplication.
 
+3.) To add the diagonal elements of the matrix.
+
+4.) To make the transpose of a matrix.
+
 # Theory
 An array is a type of data structure used to store the collection of the same data type items held at contiguous memory locations. Arrays can be one-dimensional or multidimensional based on the number of directions in which the array can grow. In this article, we will study multidimensional arrays such as two-dimensional arrays and three-dimensional arrays.
 
@@ -190,6 +194,54 @@ for(i=0; i<r1; i++)
 
 }
 
+//TRANSPOSE OF MATRIX
+#include<iostream>
+using namespace std;
+int main()
+{
+    int r,c , i , j;
+    cout<< " Enter number of rows: ";
+    cin>> r;
+    cout<<" Enter number of columns: ";
+    cin>> c;
+    int arr[r][c], arr2[c][r];
+    for (i=0 ; i < r ; i++)
+    {
+        for(j = 0 ; j < c ; j++)
+        {
+            cout<< "Enter elements ("<<i<< "," <<j<<"): "  ;
+            cin>>arr[i][j];
+        }
+    }
+for (i=0 ; i<r ; i++)
+{
+    for(j = 0; j< c ; j++ )
+    { 
+        cout<< " "<< arr[i][j];
+    }
+    cout<<endl;
+}
+for (i=0 ; i<c ; i++)
+{
+    for(j = 0; j< r ; j++ )
+    { 
+        arr2[i][j]= arr[j][i];
+    }
+
+    
+}
+cout<<endl;
+for (i=0 ; i<c ; i++)
+{
+    for(j = 0; j< r ; j++ )
+    { 
+        cout<< " "<< arr2[i][j];
+    }
+    cout<<endl;
+}
+
+}
+
 ```
 # Output
 1.) MATRIX FROM USER
@@ -205,8 +257,10 @@ for(i=0; i<r1; i++)
 <img width="1180" alt="image" src="https://github.com/user-attachments/assets/8d153a92-8a30-44a2-a67a-5bb142ceb06c">
 <img width="1180" alt="image" src="https://github.com/user-attachments/assets/e50b2e0d-9ec5-4444-8100-36d575c71cc9">
 
+4.) TRANSPOSE OF A MATRIX
+<img width="1103" alt="image" src="https://github.com/user-attachments/assets/c2b9035a-fe9b-4273-ac4c-9558f5e33ff1">
 
 
-
-
+# Conclusion
+We learnt to take inputs from user and print the matrix from it, adding and multiplying two matrices using for loop, adding the diagonal elements of the matrix and transpose of a matrix.
 
