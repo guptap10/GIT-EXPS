@@ -24,6 +24,8 @@ VS Code
 
  9.)  Write a c++ program to check a palindrome.
 
+ 10.) Write a c++ program to find how many time a letter has occured in a string taken from user.
+
 
 # Theory
 In C++, an array is a data structure that is used to store multiple values of similar data types in a contiguous memory location.
@@ -33,7 +35,10 @@ In C++, an array is a data structure that is used to store multiple values of si
 # Program Codes
 
 ```javascript
-//Array
+//PRAKHAR GUPTA
+//23070123101
+
+//ARRAY
 #include<iostream>
 using namespace std;
 int main()
@@ -54,7 +59,8 @@ int main()
     return 0;
 }
 
-//Reverse array
+//REVERSE ARRAY
+
 #include<iostream>
 using namespace std;
 int main()
@@ -75,7 +81,8 @@ int main()
     return 0;
 }
 
-//Sum & average of array elements
+//SUM & AVERAGE OF ARRAY ELEMENTS
+
 #include<iostream>
 using namespace std;
 int main()
@@ -102,7 +109,7 @@ cout << "The average of the given array is: "<< avg<<endl;
 return 0;
 }
 
-//Maximum and minimum
+//MAXIMUM AND MINIMUM
 #include<iostream>
 using namespace std;
 int main()
@@ -136,7 +143,7 @@ return 0;
 
 }
 
-//Search element
+//SEARCH ELEMENT
 #include<iostream>
 using namespace std;
 int main()
@@ -227,21 +234,56 @@ int main()
     else cout<<"No! It is not a palindrome";
 }
 
+//LETTER SEARCH IN A STRING
+#include<iostream>
+using namespace std;
+int main()
+{
+    string str1;
+    char a;
+    int count =0 ;
+    cout<<"Enter a string: "<<endl;
+    cin>>str1;
+
+    cout<<"Enter a letter to search: "<<endl;
+    cin>>a;
+
+    a = tolower(a);
+    for(char c : str1)
+    {
+if (tolower(c)== a)
+{
+    count++;
+}
+    }
+    cout<<"The letter "<<a<<" appears "<<count<<" times in the string.  "<<endl;
+
+    return 0;
+
+
+
+}
+
 ```
 # Output
-1.) Array
+1.) ARRAY
+
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/fae5aa98-704e-4753-ba69-402f0b572d1b">
 
-2.) Reverse array
+2.) REVERSE ARRAY
+
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/48bdb148-5969-4bea-bb47-9e533ecd138e">
 
-3.) Sum and average
+3.) SUM AND AVERAGE
+
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/321fc640-9850-4605-8789-0a30ae2eae67">
 
-4.) Maximum and minimum
+4.) MAXIMUM AND MINIMUM
+
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/dd0c03ce-6907-4fe8-b3d0-ecf266d75ca9">
 
-5.) Search element
+5.) SEARCH ELEMENT
+
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/972e7e59-8797-4533-822d-eb305e941134">
 <img width="1201" alt="image" src="https://github.com/user-attachments/assets/b91e215f-b874-49f0-a459-80b6c33bfbb7">
 
@@ -256,6 +298,10 @@ int main()
 
 9.) PALINDROME
 <img width="1201" alt="Screenshot 2024-08-16 at 11 44 28 PM" src="https://github.com/user-attachments/assets/5a256397-1ce2-4367-a6b3-fc3cac34d07f">
+
+10.) LETTER SEARCH IN A STRING
+<img width="1069" alt="image" src="https://github.com/user-attachments/assets/f2c6b58a-282c-4466-85c6-0fe9e4003647">
+
 
 # Conclusion
 
