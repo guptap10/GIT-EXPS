@@ -78,7 +78,7 @@ cout<<"After swapByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 ![image](https://github.com/user-attachments/assets/ddcbb365-d96a-4e39-b32d-985cb5e7bb99)
 
 2.) CALL BY REFERENCE
-<img width="1069" alt="image" src="https://github.com/user-attachments/assets/fa7655b9-563e-4719-9bc6-800766b5f393">
+<img width="1069" alt="image" src="https://github.com/user-attachments/assets/5820ad3a-218f-4209-867a-b76615690f61">
 
 # Conclusion
 
