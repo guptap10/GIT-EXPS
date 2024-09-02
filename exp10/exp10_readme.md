@@ -59,15 +59,15 @@ using namespace std;
     c=*a;
     *a=*b;
     *b=c;
-  cout<<"Inside swabByValue function: "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
+  cout<<"Inside swabByReference function: "<<"a = "<< *a<<" , "<<"b = "<< *b<<endl;
     
 }
  int main()
  
 { int a=2,b=7;
-cout<<"Before swabByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"Before swabByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 swap(&a,&b); 
-cout<<"After swapByValue: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
+cout<<"After swapByReference: "<<"a = "<<a<<" , "<<"b = "<<b<<endl;
 }
 
 ```
