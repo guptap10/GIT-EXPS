@@ -39,6 +39,24 @@ int main(){
     MyClass obj;
     return 0;
 }
+
+//PARAMETERIZED CONSTRUCTOR
+#include<iostream>
+using namespace std;
+class MyClass{
+    public:
+    int c;
+    MyClass(int val)
+{
+    c = val*val;
+    cout<<"Square of "<<val<<" is: "<<c<<endl;
+    
+}
+};
+int main() {
+    MyClass obj(9);
+    return 0;
+}
 ```
 
 # Output
@@ -47,6 +65,12 @@ int main(){
 
 <img width="1177" alt="image" src="https://github.com/user-attachments/assets/e667ce30-c3d0-430f-8d55-5936e30bf19f">
 
+2.) PARAMETERIZED CONSTRUCTOR
+
+<img width="1074" alt="image" src="https://github.com/user-attachments/assets/92480efc-8cdb-4695-8c4a-42417dec4f3f">
+
+
+
 
 # Conclusion
- We learnt to define constructor.
+ We learnt to define constructor, prameterized constructor
