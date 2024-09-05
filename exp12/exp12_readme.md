@@ -7,6 +7,11 @@ VS Code
 # Problem Statement
 1.) Write a c++ program to define constructor.
 
+2.) Write a c++ program using parameterized constructior.
+
+3.) Write a c++ program using copy constructor.
+
+
 # Theory
 
 Constructor: 
@@ -57,6 +62,30 @@ int main() {
     MyClass obj(9);
     return 0;
 }
+
+
+//COPY CONSTRUCTOR
+#include<iostream>
+using namespace std;
+class MyClass{
+    private:
+    int value;
+    public:
+    MyClass(int val){
+        value = val;
+        cout << "Pink Floyd were established in the year "<<value<<endl;
+
+    }
+    MyClass(const MyClass &obj){
+        value = obj.value;
+        cout<<"Second Indo-Pak war happened in the year "<<value<<endl;
+    }
+};
+int main(){
+    MyClass obj1(1965);
+    MyClass obj2 = obj1 ;
+    return 0;
+    }
 ```
 
 # Output
@@ -69,8 +98,9 @@ int main() {
 
 <img width="1074" alt="image" src="https://github.com/user-attachments/assets/92480efc-8cdb-4695-8c4a-42417dec4f3f">
 
-
+3.) COPY CONSTRUCTOR
+<img width="1074" alt="image" src="https://github.com/user-attachments/assets/90dde925-0de5-4622-808f-0dff89b00a1b">
 
 
 # Conclusion
- We learnt to define constructor, prameterized constructor
+ We learnt to define constructor, prameterized constructor, copy constructor
