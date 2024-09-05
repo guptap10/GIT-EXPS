@@ -129,6 +129,11 @@ int main()
 3.) COPY CONSTRUCTOR
 <img width="1074" alt="image" src="https://github.com/user-attachments/assets/90dde925-0de5-4622-808f-0dff89b00a1b">
 
+4.) DEFAULT ARGUMENT
+
+<img width="1074" alt="image" src="https://github.com/user-attachments/assets/1435ced6-c11e-4d9d-b09e-3085aac487b0">
+
+
 
 # Conclusion
- We learnt to define constructor, prameterized constructor, copy constructor
+ We learnt to define constructor, prameterized constructor, copy constructor, default arguments
