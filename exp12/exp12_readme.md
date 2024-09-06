@@ -13,7 +13,9 @@ VS Code
 
 4.) Write a c++ program for default argument.
 
-5.) Write a c++ program to calculate area of rectangle using class
+5.) Write a c++ program to calculate area of rectangle using class.
+
+6.) Write a c++ program using deconstructor.
 
 
 
@@ -152,6 +154,24 @@ int main(){
     obj1.display();
 
     return 0;
+
+//DECONSTURCTOR
+#include<iostream>
+using namespace std;
+class MyClass{
+    public:
+    ~MyClass(){
+        cout<<"Destructor called! "<< endl;
+    }
+    MyClass(){
+        cout<<"Constructor called!"<<endl;
+
+    }
+    };
+    int main(){
+        MyClass obj;
+        return 0;
+    }
 }
 ```
 
@@ -175,8 +195,11 @@ int main(){
 5.) AREA OF RECTANGLE
 <img width="1091" alt="image" src="https://github.com/user-attachments/assets/0846d0b4-31cc-47b5-97dc-6b013072c485">
 
+6.) DECONSTRUCTOR
+<img width="1091" alt="image" src="https://github.com/user-attachments/assets/c2596fc0-fd2d-41d6-a4d2-bbda6c38ac79">
+
 
 
 
 # Conclusion
- We learnt to define constructor, prameterized constructor, copy constructor, default arguments
+ We learnt to define constructor, prameterized constructor, copy constructor, default arguments and deconsturctor.
