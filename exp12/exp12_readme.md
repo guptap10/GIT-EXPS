@@ -13,6 +13,9 @@ VS Code
 
 4.) Write a c++ program for default argument.
 
+5.) Write a c++ program to calculate area of rectangle using class
+
+
 
 # Theory
 
@@ -114,6 +117,42 @@ int main()
     MyClass obj1(463,49, "Sachin");
     return 0;
     }
+
+//AREA OF RECTANGLE
+#include<iostream>
+using namespace std;
+class MyClass{
+    private:
+    int l;
+    int b;
+
+
+
+    public:
+int s,w;
+void getinput()
+         { 
+            cout<<"Enter length and breadth"<<endl;
+            cin>>s>>w;
+         }
+
+         void display()
+         { int a;
+         l=s;
+         b=w;
+    
+            a = l*b;
+         cout<<"Area of rectangle is: "<< a<< endl;
+         }
+};
+int main(){
+    
+    MyClass obj1;
+    obj1.getinput();
+    obj1.display();
+
+    return 0;
+}
 ```
 
 # Output
@@ -132,6 +171,10 @@ int main()
 4.) DEFAULT ARGUMENT
 
 <img width="1074" alt="image" src="https://github.com/user-attachments/assets/1435ced6-c11e-4d9d-b09e-3085aac487b0">
+
+5.) AREA OF RECTANGLE
+<img width="1091" alt="image" src="https://github.com/user-attachments/assets/0846d0b4-31cc-47b5-97dc-6b013072c485">
+
 
 
 
