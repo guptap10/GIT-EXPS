@@ -1,10 +1,11 @@
 # AIM
 To learn fucntion overloading in c++.
 
-# SOFTWARE USED
+# Software Used
+
 VS Code
 
-# PROBLEM STATEMENT
+# Problem Statement
 
 1.) Write a c++ program to do function overloading.
 
@@ -89,7 +90,7 @@ int main() {
 
 ```
 
-# OUTPUT
+# Output
 
 1.) FUNCTION OVERLOADING
 <img width="1088" alt="image" src="https://github.com/user-attachments/assets/5e9cc6df-6eb2-4faa-bb0e-b18f999742f2">
@@ -101,6 +102,7 @@ int main() {
 
 
 
-# CONCLUSION
+# Conclusion
+
 
 We learnt to do function and operator overloading.
