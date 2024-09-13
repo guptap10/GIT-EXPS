@@ -10,7 +10,11 @@ VS Code
 
 1.) Write a c++ code to do single inheritence.
 
-2.) Write a c++ code to do multiple inheritanc.
+2.) Write a c++ code to do multiple inheritance.
+
+3.) Write a c++ code to do multilevel inheritance.
+
+4.) Write a c++ code to do hierarchical inheritance.
 
 # Theory
 
@@ -102,6 +106,114 @@ int main()
     d.drive();
     return 0;
 }
+
+//MULTILEVEL INHERITANCE
+# include<iostream>
+using namespace std;
+
+class planets {
+    public:
+    string st, ju;
+
+    void gas(){
+        cout<< "The planet which are gas giants: "<<endl;
+        cin>>st>>ju;
+        
+    }
+};
+class li :
+public
+planets{
+    public:
+    string et;
+    void life(){
+    
+    cout<< " Planet with life: "<<endl;
+    cin>>et;
+    
+}
+};
+
+class SolarSystem : public
+li{
+    public:
+    string cm,cl;
+    void comets(){
+        cout<< "The home of comets: "<<endl;
+        cin>>cm>>cl;
+        
+    }
+
+
+void display(){
+     cout<< st<<" & "<<ju << " are gas giants."<<endl;
+  
+     cout<< et <<" is the planet with life."<<endl;
+  cout<< cm <<" "<< cl<<" is the home of comets"<<endl;
+}
+};
+int main (){
+    SolarSystem d;
+    d.life();
+    d.comets();
+    d.gas();
+    d.display();
+}
+
+
+//HIERARCHICAL INHERITANCE
+# include<iostream>
+using namespace std;
+
+class Galaxy {
+    public:
+    string gy,wy,gr,cr;
+    void gl(){
+        cout<<" Which Galaxy: "<<endl;
+        cin>>gy>>wy;
+        
+
+    }
+    void display(){
+        cout<< "Galaxy: "<< gy<<" "<<wy<<endl;
+        cout << "Group: "<<gr<<" "<<cr<<endl;
+
+    }
+};
+
+class Earth: public Galaxy{
+    public:
+   
+    void gp(){
+        cout<< "Which Group: "<<endl;
+        cin>>gr>>cr;
+        cout << "Group: "<<gr<<" "<<cr<<endl;
+    }
+};
+class NGC: public Galaxy{
+       public:
+    
+    void go(){
+        cout<< "Which Group: "<<endl;
+        cin>>gr>>cr;
+        
+    }
+
+};
+
+int main(){
+    Earth d;
+    NGC c;
+    d.gl();
+    d.gp();
+    d.display();
+
+    c.gl();
+    c.go();
+    c.display();
+    return 0;
+
+}
 ```
 
 # Output
@@ -114,8 +226,15 @@ int main()
 2.) MULTIPLE INHERITANCE
 <img width="1079" alt="image" src="https://github.com/user-attachments/assets/dfa50d70-ab1b-42eb-8a1c-58b814a3d826">
 
+3.) MULTILEVEL INHERITANCE
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/863d83cf-11b7-43c1-9b82-eeaa3eefa251">
+
+
+4.) HIERARCHICAL INHERITANCE
+<img width="1079" alt="image" src="https://github.com/user-attachments/assets/1cbb0b63-6b1c-4ca4-ac05-602786b76db8">
+
 
 # Conclusion
 
-We learnt to do multiple and single inheritance.
+We learnt to do multiple inheritance, single inheritance, multilevel and heirerichal inheritance.
 
