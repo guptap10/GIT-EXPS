@@ -4,7 +4,9 @@ To learn about recursion in c++.
 # Problem Statement
 1.) Write a c++ program to get factorial of a number using recursion.
 
-2.) Write a c++ program TO find fibonacci number in the fibonacci sequence using recursion.
+2.) Write a c++ program to find fibonacci number in the fibonacci sequence using recursion.
+
+3.) Write a c++ program to find sum of n natural numbers using recursion.
 
 # Theory
 
@@ -68,6 +70,37 @@ int main()
     cout << n <<"th Fibonacci number in Fibonacci sequence is: "<<fib(n) ;
  
 }
+
+//SUM OF 'n'  NATURAL NUMBERS
+//PRAKHAR GUPTA
+//23070123101
+# include<iostream>
+using namespace std;
+int sum(int n)
+{
+    if(n==0)
+    {
+        cout<< " Number should be greater than 1"<<endl;
+    }
+    if(n==1)
+    {
+        return 1;
+    }
+    else
+    {
+     return (n+sum(n-1));
+
+    }
+}
+    int main()
+{
+    int f,n;
+    cout << "Enter a number : "<<endl;
+    cin >> n ;
+
+    cout << n <<"Sum of numbers from 1 to "<<n<<" is: "<<" : "<<sum(n) ;
+ 
+}
 ```
 
 # Output
@@ -76,6 +109,9 @@ int main()
 
 2.) FIBONACCI SEQUENCE
 <img width="460" alt="image" src="https://github.com/user-attachments/assets/eb7fac8a-b7bc-4a59-9f02-5eadf112889a">
+
+3.) SUM OF 'n'  NATURAL NUMBERS
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/a6330567-5dd3-4ef9-b82d-f8e9925063bf">
 
 
 
