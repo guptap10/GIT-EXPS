@@ -116,3 +116,4 @@ int sum(int n)
 
 # Conclusion
 
+We learnt to find factorial, fibonacci sequence and sum of 'n' natural numbers using recursion.
