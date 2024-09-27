@@ -72,8 +72,6 @@ int main()
 }
 
 //SUM OF 'n'  NATURAL NUMBERS
-//PRAKHAR GUPTA
-//23070123101
 # include<iostream>
 using namespace std;
 int sum(int n)
