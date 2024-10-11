@@ -3,7 +3,9 @@ To do sorting in c++.
 
  # Problem Statement
  1.) Write a c++ to do selection sorting.
+ 
  2.) Write a c++ to do insertion sorting.
+ 
  3.) Write a c++ to do bubble sorting.
 
  # Theory
@@ -142,10 +144,15 @@ for(int i=0;i<elements;i++){
 
  # Output
  1.) SELECTION SORT
+ ![image](https://github.com/user-attachments/assets/ac0db708-7d91-4633-aa99-83a48996356c)
+
  
 
  2.) INSTERTION SORT
+![image](https://github.com/user-attachments/assets/d3048fe7-977c-44ee-9787-3faf3372a885)
 
  3.) BUBBLE SORT
+![image](https://github.com/user-attachments/assets/7f1047f6-3bfc-426b-9e06-4cea6768dc06)
 
  # Conclusion
+We learnt to do selection sort, insertion sort and bubble sort in c++.
